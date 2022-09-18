@@ -88,6 +88,16 @@ textarea {
   margin-bottom: 10px;
 }
 
+.checkbox .table tr td{
+  padding-right: 100px;
+}
+
+.upload-file{
+  background-color: white;
+  padding: 8px;
+  font-display: none;
+}
+
 button {
   color: #f8f9fa;
   background-color: #fe4e30;
