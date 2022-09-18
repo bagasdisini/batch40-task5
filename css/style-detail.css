@@ -72,8 +72,13 @@ nav ul li:hover {
   margin-top: 10px;
 }
 
-.techno span {
-  margin-left: 10%;
+.container i{
+  margin-bottom: 15px;
+  margin-right: 10px;
+}
+
+.techno i{
+  width: 20px;
 }
 
 .deskripsi {

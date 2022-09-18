@@ -119,6 +119,7 @@ button:hover {
   gap: 30px;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  word-break: break-all;
 }
 
 .deskripsi {
