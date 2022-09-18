@@ -1,0 +1,120 @@
+* {
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f8f9fa;
+}
+
+nav {
+  background-color: white;
+  box-shadow: 0 0 5px rgb(150, 150, 150);
+  display: flex;
+  align-items: center;
+  height: 10vh;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  color: black;
+  margin-left: 25px;
+}
+
+.nav-right {
+  flex: 50%;
+  text-align: end;
+  margin-right: 25px;
+}
+
+.nav-right a {
+  color: white;
+  padding: 4px 10px;
+  border-radius: 20px;
+  background-color: #fe4e30;
+}
+
+.nav-right a:hover {
+  background-color: #ffab9d;
+}
+
+nav ul li:hover {
+  color: grey;
+}
+
+.card {
+  margin: 100px 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.left-description {
+  margin-right: 80px;
+  flex: 4;
+}
+
+.paragraph {
+  text-align: justify;
+  margin-top: 15px;
+  margin-bottom: 35px;
+}
+
+.center-button a {
+  color: black;
+}
+
+.center-button .contact {
+  background-color: #fe4e30;
+  padding: 2px 15px;
+  color: white;
+  margin-right: 10px;
+  border-radius: 20px;
+}
+
+.icon-logo i {
+  color: black;
+  margin-top: 40px;
+  margin-right: 25px;
+  font-size: 30px;
+}
+
+.right-card {
+  background-color: white;
+  width: 200px;
+  align-self: flex-start;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgb(211, 211, 211);
+}
+
+.right-card h3 {
+  margin-top: -5px;
+  display: flex;
+  justify-content: center;
+}
+
+.right-card p {
+  margin-bottom: 10px;
+  font-size: smaller;
+  display: flex;
+  justify-content: center;
+}
+
+.center-button .contact:hover {
+  background-color: #ffab9d;
+}
+
+.center-button a:hover {
+  color: grey;
+}
+
+.icon-logo i:hover {
+  color: grey;
+}

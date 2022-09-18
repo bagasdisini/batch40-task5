@@ -1,0 +1,172 @@
+* {
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f8f9fa;
+}
+
+nav {
+  background-color: white;
+  box-shadow: 0 0 5px rgb(150, 150, 150);
+  display: flex;
+  align-items: center;
+  height: 10vh;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  color: black;
+  margin-left: 25px;
+}
+
+.nav-right {
+  flex: 50%;
+  text-align: end;
+  margin-right: 25px;
+}
+
+.nav-right a {
+  color: white;
+  padding: 4px 10px;
+  border-radius: 20px;
+  background-color: #fe4e30;
+}
+
+.nav-right a:hover {
+  background-color: #ffab9d;
+}
+
+nav ul li:hover {
+  color: grey;
+}
+
+form {
+  display: flex;
+  width: 50%;
+  margin: 40px auto;
+  justify-content: center;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.field div .input-project,
+.input-date1,
+.input-date2,
+.upload-file,
+select,
+textarea {
+  border: 5px rgb(211, 211, 211);
+  border-radius: 5px;
+  box-shadow: 0 0 7px 1px rgb(211, 211, 211);
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.kalender {
+  display: flex;
+}
+
+.kalender .input-date1 {
+  width: 95%;
+}
+
+.checkbox {
+  margin-bottom: 10px;
+}
+
+button {
+  color: #f8f9fa;
+  background-color: #fe4e30;
+  border: none;
+  float: right;
+  padding: 5px 20px;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #ffab9d;
+}
+
+.background {
+  background-color: white;
+}
+
+.splitter {
+  width: 80%;
+  margin: 0px auto;
+  border: 2px solid rgb(233, 233, 233);
+  border-radius: 50px;
+}
+
+.content {
+  margin: 40px 30px;
+  display: flex;
+  gap: 30px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.deskripsi {
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  text-align: justify;
+}
+
+h1 {
+  padding-top: 40px;
+  text-align: center;
+}
+
+.card {
+  box-shadow: 0 0 7px 1px rgb(211, 211, 211);
+  border-radius: 20px;
+  width: 300px;
+  padding: 10px;
+}
+
+.card img {
+  box-sizing: border-box;
+  box-shadow: 0 0 7px 1px rgb(211, 211, 211);
+  height: 200px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.content i {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.edit-delete {
+  font-size: smaller;
+  background-color: #fe4e30;
+  padding: 2px 10px;
+  border-radius: 20px;
+  color: white;
+}
+
+.edit-delete:hover {
+  background-color: #ffab9d;
+}
+
+.card div {
+  width: 300px;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
