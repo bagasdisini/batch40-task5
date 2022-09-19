@@ -1,130 +1,123 @@
 <!DOCTYPE html>
-  <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="css/style-my-project.css" />
-    <link rel="icon" href="assets/image.jpg" type="image/jpg">
-    <title>My Project</title>
-  </head>
-  <body>
-    <nav>
-      <div class="nav-left">
-        <ul>
-          <li>
-            <a href="index.html"
-              ><img
-                src="https://dumbways.id/assets/images/brandred.png"
-                alt="dumbways logo"
-                width="50px"
-              />
-            </a>
-          </li>
-          <a href="index.html"> <li>Home</li></a>
-          <a href="my-project.html" style="font-weight: bold">
-            <li>My Project</li></a
-          >
-        </ul>
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/style-my-project.css" />
+  <link rel="icon" href="assets/image.jpg" type="image/jpg">
+  <title>My Project</title>
+</head>
+
+<body>
+  <nav>
+    <div class="nav-left">
+      <ul>
+        <li>
+          <a href="index.html"><img src="https://dumbways.id/assets/images/brandred.png" alt="dumbways logo"
+              width="50px" />
+          </a>
+        </li>
+        <a href="index.html">
+          <li>Home</li>
+        </a>
+        <a href="my-project.html" style="font-weight: bold">
+          <li>My Project</li>
+        </a>
+      </ul>
+    </div>
+    <div class="nav-right">
+      <a href="contact.html">Contact Me</a>
+    </div>
+  </nav>
+  <form onsubmit="addData(event)">
+    <div class="field">
+      <h2>ADD MY PROJECT</h2>
+      <div>
+        <label for="input-project">Input Project</label>
+        <input type="text" class="input-project" id="input-project" />
       </div>
-      <div class="nav-right">
-        <a href="contact.html">Contact Me</a>
-      </div>
-    </nav>
-    <form onsubmit="addData(event)">
-      <div class="field">
-        <h2>ADD MY PROJECT</h2>
+      <div class="kalender">
         <div>
-          <label for="input-project">Input Project</label>
-          <input type="text" class="input-project" id="input-project" />
-        </div>
-        <div class="kalender">
-          <div>
-            <label for="input-date1">Start Date</label>
-            <input type="date" class="input-date1" id="input-date1" />
-          </div>
-          <div>
-            <label for="input-date2">End Date</label>
-            <input type="date" class="input-date2" id="input-date2" />
-          </div>
+          <label for="input-date1">Start Date</label>
+          <input type="date" class="input-date1" id="input-date1" />
         </div>
         <div>
-          <label for="description">Your Description</label>
-          <textarea
-            name="description"
-            id="description"
-            cols="30"
-            rows="7"
-          ></textarea>
+          <label for="input-date2">End Date</label>
+          <input type="date" class="input-date2" id="input-date2" />
         </div>
-        <label>Technology</label>
-        <div class="checkbox">
-          <table class="table">
-            <tr>
-              <td>
-                <input type="checkbox" value="node" id="input-nodeJs" />
-                <label for="input-nodeJs">Node Js</label>
-              </td>
-              <td>
-                <input type="checkbox" id="input-vuejs" value="vuejs" />
-                <label for="input-vuejs">Vue Js</label>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <input
-                  type="checkbox"
-                  id="input-reactJs"
-                  value="react"
-                />
-                <label for="input-reactJs">React Js</label>
-              </td>
-              <td>
-                <input type="checkbox" id="input-TS" value="js" />
-                <label for="input-TS">TypeScript</label>
-              </td>
-            </tr>
-          </table>
-        </div>
-        <div>
-          <label for="upload-file">Upload Image</label>
-          <input type="file" class="upload-file" id="upload-file" accept="image/jpg, image/png, image/jpeg" required/>
-        </div>
-        <button>Submit</button>
       </div>
-    </form>
-    <hr class="splitter">
-    <div class="background">
-      <h1>My Project</h1>
-      <div class="content" id="content">
-        <div class="card">
-          <div class="image-content">
-            <a href="detail.html" class="read-more">
+      <div>
+        <label for="description">Your Description</label>
+        <textarea name="description" id="description" cols="30" rows="7"></textarea>
+      </div>
+      <label>Technology</label>
+      <div class="checkbox">
+        <table class="table">
+          <tr>
+            <td>
+              <input type="checkbox" value="node" id="input-nodeJs" />
+              <label for="input-nodeJs">Node Js</label>
+            </td>
+            <td>
+              <input type="checkbox" id="input-vuejs" value="vuejs" />
+              <label for="input-vuejs">Vue Js</label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input type="checkbox" id="input-reactJs" value="react" />
+              <label for="input-reactJs">React Js</label>
+            </td>
+            <td>
+              <input type="checkbox" id="input-TS" value="js" />
+              <label for="input-TS">TypeScript</label>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div>
+        <label for="upload-file">Upload Image</label>
+        <input type="file" class="upload-file" id="upload-file" accept="image/jpg, image/png, image/jpeg" required />
+      </div>
+      <button>Submit</button>
+    </div>
+  </form>
+  <hr class="splitter">
+  <div class="background">
+    <h1>My Project</h1>
+    <div class="content" id="content">
+      <div class="card">
+        <div class="image-content">
+          <a href="detail.html" class="read-more">
             <img src="assets/image.jpg" alt="foto" style="width: 100%" /></a>
-          </div>
-          <div><a href="detail.html" class="read-more">
-            <p style="font-weight: bold; color: black;">Dumbways Mobile App-2021</p></a>
-            <p style="font-size: 13px;">Duration : 3 Month(s)</p>
-          </div>
-          <div class="deskripsi">
-            <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
-            maiores numquam velit autem ratione... <a href="detail.html" class="read-more"><span style="font-weight: bold; color: black;">Read More</span></a></p>
-          </div>
-          <div>
-            <i class="fa-brands fa-node"></i>
-            <i class="fa-brands fa-react"></i>
-            <i class="fa-brands fa-vuejs"></i>
-            <i class="fa-brands fa-js"></i>
-          </div>
-          <a href="#" class="edit-delete">Edit</a>
-          <a href="#" class="edit-delete">Delete</a>
         </div>
+        <div><a href="detail.html" class="read-more">
+            <p style="font-weight: bold; color: black;">Dumbways Mobile App-2021</p>
+          </a>
+          <p style="font-size: 13px;">Duration : 3 Month(s)</p>
+        </div>
+        <div class="deskripsi">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+            maiores numquam velit autem ratione... <a href="detail.html" class="read-more"><span
+                style="font-weight: bold; color: black;">Read More</span></a></p>
+        </div>
+        <div>
+          <i class="fa-brands fa-node"></i>
+          <i class="fa-brands fa-react"></i>
+          <i class="fa-brands fa-vuejs"></i>
+          <i class="fa-brands fa-js"></i>
+        </div>
+        <a href="#" class="edit-delete">Edit</a>
+        <a href="#" class="edit-delete">Delete</a>
       </div>
     </div>
-    <script src="js/script-my-project.js"></script>
-  </body>
+  </div>
+  <script src="js/script-my-project.js"></script>
+</body>
+
 </html>

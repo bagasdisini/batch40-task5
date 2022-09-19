@@ -76,6 +76,7 @@ textarea {
   padding: 5px;
   margin-bottom: 10px;
 }
+
 .kalender {
   display: flex;
 }
@@ -88,11 +89,11 @@ textarea {
   margin-bottom: 10px;
 }
 
-.checkbox .table tr td{
+.checkbox .table tr td {
   padding-right: 100px;
 }
 
-.upload-file{
+.upload-file {
   background-color: white;
   padding: 8px;
   font-display: none;
@@ -150,7 +151,7 @@ h1 {
   padding: 10px;
 }
 
-.read-more{
+.read-more {
   color: black;
 }
 
