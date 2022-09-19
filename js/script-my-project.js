@@ -59,10 +59,12 @@ function addData(event) {
     document.getElementById("content").innerHTML += `
     <div class="card">
           <div class="image-content">
-            <img src="${dataBlog[index].gambar}" alt="foto" style="width: 100%" />
+          <a href="detail.html" class="read-more">
+            <img src="${dataBlog[index].gambar}" alt="foto" style="width: 100%" /></a>
           </div>
           <div>
-            <p style="font-weight: bold">${dataBlog[index].judul}</p>
+          <a href="detail.html" class="read-more">
+            <p style="font-weight: bold">${dataBlog[index].judul}</p></a>
             <p style="font-size: 13px;">Duration : ${dataBlog[index].duration}</p>
           </div>
           <div class="deskripsi">
